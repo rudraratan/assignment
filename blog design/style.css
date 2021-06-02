@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+.blog{
+    width: 800px;
+    height: 500px;
+    background: rgb(221, 210, 189);
+    margin: 60px 150px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 33px;
+    border-left: 5px solid green;
+    border-bottom: 5px solid green;
+    overflow: hidden;
+}
+.blog h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(214 214 65);
+    text-shadow: 5px 4px 5px black;
+}
+.blog img{
+    width: 300px;
+    height: 250px;
+}
+.blog p{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

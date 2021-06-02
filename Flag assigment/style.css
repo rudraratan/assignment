@@ -1,0 +1,298 @@
+body{
+    background-color: rgb(217, 240, 238);
+}
+.sobuj{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: green;
+    overflow: hidden;
+}
+.lal{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 23px auto;
+    border-radius: 50%;
+
+}
+.bangladesh h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 554px;
+    text-shadow: 8px 4px 7px black;
+}
+.german{
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    border-top: 100px solid black;
+    border-bottom: 100px solid yellow;
+    margin: 0 auto;
+}
+.germany h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 518px;
+    text-shadow: 8px 4px 7px black;
+}
+.ita{
+    height: 300px;
+    width: 166px;
+    background-color: white;
+    border-left: 166px solid #008000;
+    border-right: 166px solid #FF0000;
+    margin: 0 auto;
+}
+.italy h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 585px;
+    text-shadow: 8px 4px 7px black;
+}
+.rus{
+    width: 500px;
+    height: 100px;
+    background-color: #0039A6;
+    border-top: 100px solid #FFFFFF;
+    border-bottom: 100px solid #D52B1E;
+    margin: 0 auto;
+}
+.russia h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 574px;
+    text-shadow: 8px 4px 7px black;
+}
+.mex{
+    height: 300px;
+    width: 166px;
+    background-color: white;
+    border-left: 166px solid #006847;
+    border-right: 166px solid #CE1126;
+    margin: 0 auto;
+}
+.mex img{
+    margin: 56px 4px;
+    width: 155px;
+}
+.mexico h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 536px;
+    text-shadow: 8px 4px 7px black;
+}
+.spa{
+    width: 500px;
+    height: 130px;
+    background-color: #FFC400;
+    border-top: 80px solid #C60B1E;
+    border-bottom: 80px solid #C60B1E;
+    margin: 0 auto;
+}
+.spa img{
+    width: 109px;
+    margin: 8px 63px;
+}
+.spain h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 565px;
+    text-shadow: 8px 4px 7px black;
+}
+.ire{
+    height: 300px;
+    width: 166px;
+    background-color: white;
+    border-left: 166px solid #169B62;
+    border-right: 166px solid #FF883E;
+    margin: 0 auto;
+}
+.ireland h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 552px;
+    text-shadow: 8px 4px 7px black;
+}
+.white{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+    
+}
+.la{
+    width: 200px;
+    height: 200px;
+    background-color: #BC002D;
+    margin: 43px auto;
+    border-radius: 50%;
+
+}
+.japan h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 554px;
+    text-shadow: 8px 4px 7px black;
+}
+.ca{
+    width: 500px;
+    height: 300px;
+    background-color: #EF1620;
+    margin: 0 auto;
+}
+.ca img{
+    width: 164px;
+    margin: 14px 11px;
+}
+.caina h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 554px;
+    text-shadow: 8px 4px 7px black;
+}
+.col{
+    width: 500px;
+    height: 70px;
+    background-color: #003893;
+    border-top: 170px solid #FCD116;
+    border-bottom: 70px solid #CE1126;
+    margin: 0 auto;
+}
+.colombia h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 606px;
+    text-shadow: 8px 4px 7px black;
+}
+.neth{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-top: 100px solid #AF1623;
+    border-bottom: 100px solid #1B448C;
+    margin: 0 auto;
+}
+.netharland h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 554px;
+    text-shadow: 8px 4px 7px black;
+}
+.sw{
+    width: 500px;
+    height: 300px;
+    background-color: #FF0000;
+    
+    margin: 0 auto;
+}
+.sw img{
+    width: 243px;
+    margin: 10px 124px;
+}
+.switzerland h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 554px;
+    text-shadow: 8px 4px 7px black;
+}
+.ar{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-top: 100px solid #74ACDF;
+    border-bottom: 100px solid #74ACDF;
+    
+    margin: 0 auto;
+}
+.ar img{
+    width: 103px;
+    margin: 10px 186px;
+}
+.argentina h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 554px;
+    text-shadow: 8px 4px 7px black;
+}
+.pe{
+    height: 300px;
+    width: 166px;
+    background-color: white;
+    border-left: 166px solid #D91023;
+    border-right: 166px solid #D91023;
+    margin: 0 auto;
+}
+.peru h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 606px;
+    text-shadow: 8px 4px 7px black;
+}
+.au{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-top: 100px solid #ED2939;
+    border-bottom: 100px solid #ED2939;
+    margin: 0 auto;
+}
+.austria h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 554px;
+    text-shadow: 8px 4px 7px black;
+}
+.welcome{
+    background-color: yellow;
+}
+.welcome h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-size: 50px;
+    margin-left: 554px;
+    text-shadow: 8px 4px 7px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.baby1{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(196, 230, 219);
+
+}
+.baby1 h2{
+    font-family: 'Pattaya', sans-serif;
+    padding: 20px;
+}
+.baby1 p{ 
+    margin-left: 20px;
+}
+.baby2{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(67, 119, 233, 0.5), rgba(0,0,0,.5)),url(assets/image/Young_girl_in_Mauritania.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.baby3{
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+}
+.baby3 p{
+ 
+    padding: 20px;
+    text-align: justify;
+}
