@@ -68,7 +68,31 @@
     color: #732525;
     text-shadow: 1px 2px 3px #bbc1c045;
 }
+@media (max-width:700px){
 
+    .main-wrap{
+        margin-left: 27px;
+    }
+    .wrap{
+        width: 90%;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 59px;
+    }
+    .fake{
+        margin-left: 0px;
+    }
+}
+@media (min-width:700px) and (max-width:1025px){
+    .wrap{
+        width: 25%;
+    }
+}
+@media (min-width:1025px) and (max-width:1326px){
+    .wrap{
+        width: 29%;
+    }
+}
 
 
 
