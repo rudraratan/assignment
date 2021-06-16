@@ -1,0 +1,732 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix{
+    overflow: hidden;
+}
+.container{
+    width: 1150px;
+    display: block;
+    margin: 0 auto;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+        /* logo and menu code */
+.bg_pic{
+    background-image: linear-gradient(rgba(65, 80, 139, 0.7),rgba(46, 66, 143, 0.7)),url(assets/img/banner.png);
+
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.logo {
+    width: 300px;
+    height: 66px;
+    padding: 20px 40px;
+    float: left;
+}
+.nav{
+    float: right;
+    display: block;
+    margin-top: 43px;
+    margin-right: 32px;
+}
+.nav ul{
+
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    transition: all 0.3s ease;
+}
+.nav ul li a:hover{
+    color: rgb(68, 26, 26);
+}
+        /* text design code */
+.text{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.text h2{
+    color: white;
+    font-size: 58px;
+    margin-top: 244px;
+    margin-left: 352px;
+    
+}
+.text p{
+    color: white;
+    text-align: center;
+}
+.mybtn{
+    padding: 9px 42px;
+    color: white;
+    transition: all 0.5s ease;
+    border-color: none;
+    margin: 38px 550px;
+    background: black;
+    border: 0px;
+
+}
+.mybtn:hover{
+    color: black;
+    background-color: #d37573;
+    border-color: none;
+    cursor: pointer;
+
+}
+/* three div  */
+.content_wrap{
+    width: 1349px;
+    height: 683px;
+    background-color: white;
+
+}
+
+
+
+
+
+.content_wrap h2{
+    margin-left: 300px;
+    font-size: 66px;
+    margin: 200px 0px 0px 416px;
+}
+
+
+.content_wrap p{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+
+.left_content{
+    width: 250px;
+    height: 174px;
+    float: left;
+    background-color: #F6EAEA;
+    margin-top: 42px;
+    margin-left: 177px;
+    margin-right: 120px; 
+    border-radius: 5px;
+    transition: all 0.5s ;
+    
+}
+.left_content:hover{
+    background-color: #c9a6a6;
+    
+    
+}
+.left_content h4,.middle_content h4,.right_content h4{
+    margin: 20px 0px 0px 72px;
+    font-size: 24px;
+    color: #534B49;
+}
+.left_content p,.middle_content p,.right_content p{
+    text-align: center;
+    margin-top: -24px;
+    color: #ADA4A3;
+    transition: all 0.3s ease;
+}
+.left_content p:hover,.middle_content p:hover,.right_content p:hover{
+    color: black;
+}
+.middle_content{
+    width: 250px;
+    height: 174px;
+
+    float: left;
+    background-color: #F6EAEA;
+    margin-top: 42px;
+    border-radius: 5px;
+
+}
+.right_content{
+    width: 250px;
+    height: 174px;
+
+    float: left;
+    background-color: #F6EAEA;
+    margin-top: 42px;
+    margin-left: 114px;
+    border-radius: 5px;
+
+
+
+}
+/* three pic box */
+
+.pic_wrap{
+
+}
+
+.pic_wrap h2{
+    text-align: center;
+    padding-bottom: 14px;
+    font-size: 37px;
+}
+
+.pic_wrap p{
+    text-align: center;
+    padding-bottom: 75px;
+    color: #c9a6a6;
+
+}
+
+
+
+
+
+
+
+
+
+
+.middle_pic{
+    background: url(assets/img/newyork.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(190, 221, 159);
+    width: 350px;
+    height: 500px;
+    float: left;
+    margin-right: 40px;
+
+
+}
+.right_pic{
+    background: url(assets/img/washington.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(190, 221, 159);
+    width: 350px;
+    height: 500px;
+    float: left;
+
+}
+.fac h2{
+    padding-top: 53px;
+
+}
+.fac{
+    padding-bottom: 100px;
+}
+.london{
+    background: url(assets/img/library.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+    
+    box-shadow: 4px 5px 6px black;
+}
+
+.honk{
+    background: url(assets/img/basketball.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    box-shadow: 4px 5px 6px black;
+
+}
+.was{
+    background: url(assets/img/cafeteria.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    box-shadow: 4px 5px 6px black;
+
+}
+/* global campus code */
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50%;
+}
+.campus_col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus_col img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+.layer:hover{
+    background: rgba(226, 0, 0, 0.7);
+
+}
+.row{
+    width: 30%;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    transform: translateY(10%);
+    position: absolute;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* global campus code */
+
+
+
+.campu_lol{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campu_lol img{
+    width: 100%;
+    display: block;
+
+}
+.layers{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s; 
+}
+.layers:hover{
+    background: rgba(226, 0, 0, 0.7);
+
+}
+.rows{
+    width: 30%;
+    float: left;
+    margin-right: 35px;
+}
+.total{
+    background: rgba(184, 209, 137, 0.712);
+}
+.layers h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 93%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}
+.layers:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.london h2{
+    color: white;
+}
+.our h2{
+    margin: 13px auto;
+    display: block;
+    text-align: center;
+    font-size: 38px;
+}
+.our p{
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+.testimonial_full{
+    border-radius: 5px;
+    width: 421px;
+    height: 170px;
+    background: #ecd7d7;
+    margin-right: 79px;
+    margin-left: 75px;
+    margin-top: 60px;
+}
+.testimonial_full img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+    margin: 23px 23px;
+}
+.test_part{
+    margin: -77px 15px 0px 91px;
+    text-align: left;
+    float: left;
+}
+.test_part p{
+    color: rgb(121, 111, 94);
+    text-align: left;
+}
+.test_part h3{
+    color: rgb(63, 55, 41);
+    margin-top: 20px;
+}
+.container_full{
+    padding-bottom: 79px;
+}
+.cta{
+    width: 57%;
+    height: 280px;
+    margin: auto;
+    background: url(assets/img/banner2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.gpa{
+    display: block;
+    overflow: hidden;
+}
+.gpa h1{
+    display: block;
+    font-size: 54px;
+    text-align: center;
+    color: #dc50509e;
+    margin-top: 52px;
+}
+.gpa a{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.gpa a:hover{
+    
+    
+}
+.btn{
+    border: 0px;
+    padding: 5px 79px;
+    font-size: 25px;
+    margin: 24px 234px;
+    background: none;
+    transition: all 0.2s ease;
+    background-color: #e6d4d4be;
+}
+.btn:hover{
+    color: white;
+    background-color: #9e5d5db6;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.bg{
+    background: url(assets/img/user1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.slider-wrapper{
+    width: 600px;
+    margin: 127px 530px;
+    margin-top: 25px;
+    margin-bottom: 158px;
+}
+.fa{
+    margin-top: 10px;
+    color: #f44336;
+}
+.fas{
+    color: #f44336;
+
+}
+.why{
+
+}
+.us{
+    display: block;
+    margin-top: -461px;
+    padding-left: 48px;
+    
+}
+.us h1{
+    font-size: 122px;
+    color: #4e4747;
+    text-shadow: 5px 3px 7px black;
+}
+.us p{
+    text-align: left;
+    letter-spacing: 3.7px;
+    text-align: left;
+    text-shadow: 1px -2px 4px #84401a;
+}
+.footer{
+    background-color: #312e2e;
+    margin-top: 97px;
+    padding-bottom: 25px;
+}
+.footer h2{
+    color: white;
+}
+.footer_left{
+    width: 400px;
+}
+.footer_left h2,.footer_middle h2,.footer_right h2{
+    padding: 20px 15px;
+}
+.footer_left ul li a,.footer_middle ul li a,.footer_right ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 0px 0px 29px;
+    display: block;
+}
+.footer_middle{
+    width: 400px;
+}
+.footer_right{
+    width: 400px;
+}
+.footer_right ul li{
+    list-style: none;
+    float: left;
+}
+.footer_right ul li a img{
+    
+    width: 71px;
+    height: 80px;
+    box-shadow: 6px -4px 5px #4a4141;
+}
+
+@media (max-width:400px){
+    .bg_pic{
+        width: 100%;
+        background-image: url(assets/img/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        
+        
+    }
+    .text h2{
+        font-size: 25px;
+        margin-top: 37px;
+        margin-left: 49px;
+    }
+    .text p{
+        color: #2b2626;
+        text-align: center;
+        margin-top: 46px;
+    }
+    .mybtn{
+        padding: 9px 42px;
+        color: white;
+        transition: all 0.5s ease;
+        border-color: none;
+        margin: 90px 82px;        
+        background: black;
+        border: 0px;
+    }
+    .content_wrap h2{
+        font-size: 40px;
+        margin: 30px 0 0 15px;
+    }
+    .content_wrap p{
+        width: 350px;
+        margin: 20px 0 0 0;
+        text-align: center;
+        padding: 0px;
+
+    }
+    .left_content {
+        width: 30%;
+        height: 174px;
+        float: none;
+        margin-left: 0px;
+        background-color: #F6EAEA;
+        margin-top: 42px;
+        
+        margin-right: 120px;
+        border-radius: 5px;
+        transition: all 0.5s;
+        display: block;
+    }
+    .middle_content{
+        width: 30%;
+        height: 177px;
+        float: none;
+        background-color: #F6EAEA;
+        margin-top: 6px;
+        border-radius: 5px;
+        display: block;
+        margin-bottom: 28px;
+    }
+    .right_content {
+        width: 30%;
+        height: 198px;
+        float: none;
+        background-color: #F6EAEA;
+        margin-top: -22px;
+        margin-left: 0px;
+        border-radius: 5px;
+        display: block;
+    }
+    .left_content h4, .middle_content h4, .right_content h4 {
+        margin: 0px 0px 0px 0px;
+        font-size: 24px;
+        color: #534B49;
+        text-align: center;
+        margin-top: 13px;
+    }
+    .container {
+        width: 100%;
+    }
+    .pic_wrap h2 {
+        text-align: center;
+        padding-bottom: 12px;
+        font-size: 35px;
+        margin-top: 31px;
+    }
+    .rows {
+        width: 24%;
+        margin-right: 18px;
+        margin-left: 17px;
+    }
+    .layers h3{
+        left: 66%;
+        font-size: 16px;
+    }
+    .testimonial_full {
+        border-radius: 5px;
+        width: 100%;
+        height: 170px;
+        background: #ecd7d7;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    .cta {
+        width: 90%;
+        height: 158px;
+    }
+    .gpa h1{
+        font-size: 19px;
+        margin-top: 14px;
+    }
+    .btn{
+        margin: 29px 38px;
+    }
+    .slider-wrapper {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .us{
+        margin-top: 0;
+    }
+    .us h1 {
+        font-size: 85px;
+    }
+    .us p{
+        letter-spacing: 0.7px;
+    }
+    .footer_left {
+        width: 70%;
+        margin-left: 71px;
+    }
+    .footer_middle{
+        width: 70%;
+        margin-left: 71px;
+    }
+    .fot{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_right ul li a img{
+        width: 100%;
+        height: 60px;
+    }
+    .london{
+        float: none;
+        margin-right: 0px;
+        margin-left: 21px;
+        margin-bottom: 20px;
+    }
+    .honk{
+        float: none;
+        margin-right: 0px;
+        margin-left: 21px;
+        margin-bottom: 20px;
+    }
+    .was{
+        float: none;
+        margin-right: 0px;
+        margin-left: 21px;
+        margin-bottom: 20px;
+    }
+    .our h2{
+        font-size: 27px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

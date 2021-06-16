@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+
+}
+input:focus{
+    outline: none;
+}
+.flex{
+    overflow: hidden;
+}
+.netflix{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(assets/image/bg.jpg);
+    background-size: cover;
+    padding-bottom: 65px;
+}
+.netflix img{
+    width: 145px;
+    margin-left: 50px;
+}
+
+.lform{
+    width: 285px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 450px;
+    margin-top: 91px;
+    
+}
+.lform h2{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+.lform form{
+    width: 100%;
+}
+.lform input{
+    padding: 10px;
+    background-color: #333;
+    display: block;
+    width: 92%;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    
+}
+.lform button{
+    padding: 16px;
+    background-color: rgb(238, 13, 13);
+    display: block;
+    width: 100%;
+    border: 1px solid #333;
+    color: white;
+    cursor: pointer;
+    margin-top: 32px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.remember input{
+    width: 20px;
+    display: inline-block;
+}
+.remember label{
+    color: white;
+    font-size: 14px;
+}
+.remember a{
+    color: white;
+    font-size: 14px; 
+    float: right; 
+}
+.fbicon img{
+    width: 6.5%;
+}
+#mail{
+    height: 25px;
+    display: block;
+    margin-bottom: 16px;
+}
+.fbicon{
+    overflow: hidden;
+    margin-top: 51px;
+    margin-left: -45px;
+    display: inline-block;
+}
+.fbicon img{
+    background-color: white;
+    float: left;
+    margin-right: 10px;
+}
+.fbicon a{
+    color: #f1ede0;
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(131, 124, 124);
+
+    
+}
+.login{
+    color: rgb(58, 54, 54);
+    font: bold;
+    font-weight: bold;
+}
+.fas{
+    color: rgb(255, 0, 64);
+    width: 40px;
+    display: block;
+}
+.remember label{
+    color: rgb(131, 124, 124);
+}
+.remember a{
+    color: rgb(131, 124, 124);
+    
+
+}
+.text-wrap p{
+    color: rgb(131, 124, 124);
+
+}
+.text-wrap #learn{
+    font-size: 13px;
+}
+.text-wrap .sin{
+    color: white;
+    font-size: 16px;
+}
+.text-wrap .sin:hover{
+    text-decoration: underline;
+}
+.text-wrap{
+    margin-top: 10px;
+}
+
+#more{
+    color: #0071EB;
+
+}
+#more:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

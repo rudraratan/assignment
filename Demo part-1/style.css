@@ -1,0 +1,76 @@
+.content-wrap{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.wrap{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.london{
+    width: 26%;
+    float: left;
+    margin-right: 51px;
+}
+.london img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.newyork{
+    width: 26%;
+    float: left;
+    margin-right: 51px;
+
+}
+.newyork img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.washington{
+    width: 26%;
+    float: left;
+    margin-right: 51px;
+
+}
+.washington img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width:400px){
+    .london{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .newyork{
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+    .washington{
+        width: 100%;
+  
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
