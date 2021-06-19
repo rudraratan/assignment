@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+input:focus{
+    outline: none;
+}
+/* main code start */
+.icon{
+ float: right; 
+ padding: 20px;
+    
+}
+.icon a{
+    margin-right: 10px;
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon a:nth-child(1){
+    margin-right: 35px;
+    font-size: 11px;
+
+}
+.container{
+    width: 960px;
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -228px;
+}
+.icon_wrap{
+    padding-top: 294px;
+    padding-left: 235px;
+}
+.image{
+    display: inline-block;
+    padding-right: 43px;
+    overflow: hidden;
+}
+.image a img{
+    margin-top: 125px;
+    transition: all 0.5s ease;
+
+
+}
+.image h4{
+    margin-left: 14px;
+    color: black;
+}
+.image:nth-child(5) h4{
+    margin-left: -2px;
+}
+.image:nth-child(6) h4{
+    margin-left: -0px;
+
+}
+.image:nth-child(7) h4{
+    margin-left: -1px;
+
+}
+
+
+
+
+
+
+.image:hover #hover{
+    transform: translate(0px,-20px);
+}
+
+.image:hover h4{
+    color: red;
+
+}
+
+.place img{
+    width: 70px;
+}
+.search_bar{
+    padding: 32px 0px 0px 292px;
+}
+
+.search_bar::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+.place{
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.place input{
+    width: 685px;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    
+    position: relative;
+    border: none;
+    border: 1.5px solid yellow;
+
+}
+.place img{
+    position: absolute;
+    right: 75px;
+    top: -7px;
+    cursor: pointer;
+
+}
+.logo{
+    float: left;
+    padding-right: 11px;
+    cursor: pointer;
+
+}
+.place button{
+    padding: 9px 18px;
+    background: none;
+    font-size: 17px;
+    margin-left: -6px;
+    background: yellow;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

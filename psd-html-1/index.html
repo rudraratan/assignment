@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psd to css</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container_full bg">
+        <div class="fix container">
+            <div id="header">
+                <div class="left_logo">
+                    <h2>Blogin</h2>
+                </div>
+                <nav id="nav">
+                    <ul id="menu">
+                        <li><a href="" id="active">Journal</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Work</a></li>
+                        <li><a href="">Contact</a></li>
+
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container_full">
+        <div class="fix container border">
+            <div class="content_wrap">
+                <div class="wrap">
+                    <article class="content_wrap_full">
+                        <div class="left_content">
+                            <img src="assets/img/1.png" alt="">
+                            <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+                            <a href="" id="continue_btn">continue reading</a>
+                        </div>
+                        <div class="left_content">
+                            <img src="assets/img/2.png" alt="">
+                            <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+                            <a href="" id="continue_bt">continue reading</a>
+                        </div>
+                    </article>
+                    <div class="sidebar">
+                          <h3 id="about">About Blogin.</h3>
+                          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                          <h4 id="search">SEARCH</h4>
+                          <input type="text" class="search_box" placeholder="what are you looking for?">
+                          <h5 id="stay">STAY TUNED</h5>
+                          <div class="mail_submit">
+                                <input type="mail" placeholder="Your mail">
+                                <input type="submit" id="submit_icon">
+                          </div>
+                    </div>
+                </div>
+                <div class="footer-button">
+                    <a href="">&larr;PREVIOUS</a>
+                    <a href="">NEXT&rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_full footrbg">
+        <div class="fix container">
+            <footer id="footer">
+                <h2>Blogin</h2>
+                <p>&copy; 2014 Blogin.com  -  All Rights Reserved  -  Find more free Templates at Pixelhint.com</p>
+                <div id="social">
+                    <a href="" id="facebook"></a>
+                    <a href="" id="tweeter"></a>
+                    <a href="" id="behance"></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!--  
+    <div class="container_full">
+        <div class="fix container">
+
+        </div>
+    </div>
+
+    -->
+  
+
+<!-- icon menu -->
+
+
+
+<div id="sidenav">
+    <nav>
+        <ul class="ul">
+            <li><a href="">Journal</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menubtn">
+    <img src="assets/img/menu.png" alt="" id="menu">
+</div>
+
+
+
+<!-- java script -->
+
+
+<script>
+    var menubtn=document.getElementById("menubtn")
+    var sidenav=document.getElementById("sidenav")
+    var menu=document.getElementById("menu")
+
+    menubtn.onclick=function()
+    {
+        if(sidenav.style.right=="-900px"){
+            sidenav.style.right="0"
+            menu.src="assets/img/close.png"
+
+        }
+        else{
+            sidenav.style.right="-900px"
+            menu.src="assets/img/menu.png"
+            
+        }
+    }
+
+
+
+
+</script>
+
+<!-- icon menu -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

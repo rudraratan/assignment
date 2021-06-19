@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.fix{
+    overflow: hidden;
+}
+input:focus{
+    outline: none;
+}
+
+body{
+    background-color: rgba(165, 161, 161, 0.699);
+}
+
+
+/* reset code end */
+/* main code start */
+.header{
+    background-color: white;
+}
+.header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header .logosearch{
+    padding: 15px 0;
+    overflow: hidden;
+}
+.header .logosearch .logo{
+    width: 50%;
+    float: left;
+}
+.header .logosearch .search{
+    float: right;
+    margin-top: 15px;
+}
+
+
+.header .logosearch .search input{
+    width: 257px;
+    height: 35px;
+    border: 1px solid #d4d4d4;
+    background: #F3F3F3;
+    font-size: 15px;
+    padding: 5px;
+    color: #CBB3A1;
+    float: left;
+}
+.header .logosearch .search button{
+    width: 105px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    float: left;
+    background-color: #F38944;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    margin-right: 7px;
+}
+/* menu start */
+.menu-wrap{
+    background-color: #303030;
+}
+.menu-wrap::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu-wrap .menu{
+    float: left;
+}
+.menu-wrap .menu ul li{
+    float: left;
+    
+}
+.menu-wrap .menu ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 15.5px;
+    
+}
+.menu-wrap .menu ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.menu-wrap .login-icon{
+    float: left;
+    margin-left: 36px;
+}
+.menu-wrap .login-icon{
+
+}
+.menu-wrap .login-icon i{
+    color: #fff;
+    font-size: 14px;
+    padding: 11.3px 5px;
+    margin-left: 18px;
+    font-family: lato;
+}
+.menu-wrap .login-icon i:hover{
+    background-color: white;
+    color: black;
+}
+.menu-wrap .login-icon i:last-child{
+    margin-left: 6px;
+}
+/* menu end */
+/* section start */
+.baner{
+    background-image: url(assets/img/homepage_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 426px;
+ 
+
+}
+.baner h1{
+    font-size: 40px;
+    font-weight: 900;
+    width: 60%;
+    text-align: center;
+    margin: 55px auto 0;
+}
+
+
+
+.baner_search input{
+    width: 620px;
+    height: 75px;
+    background: ;
+    font-size: 20px;
+    padding: 5px;
+    color: #CBB3A1;
+    float: left;
+    padding-left: 20px;
+    
+    border: none;
+}
+.baner_search button{
+    width: 175px;
+    height: 75px;
+    padding: 5px;
+    border: none;
+    float: left;
+    background-color: #F38944;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.atribute{
+    overflow: hidden;
+    margin-left: 77px;
+    margin-top: 5px;
+}
+
+.atribute a{
+    float: left;
+    color: #F38944;
+    font-weight: 800;
+    margin-left: 26px;
+}
+.atribute a:last-child{
+    float: right;
+    margin-right: 100px;
+}
+.baner p{
+    margin-top: 17px;
+    margin-left: 238px;
+}
+.baner .banner_content .baner_search{
+    margin: auto;
+    box-shadow: 4px 2px 18px rgba(88, 83, 83, 0.562);
+    width: 79.5%;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+.baner .banner_content .baner_search::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.service{
+    background: white;
+    padding: 50px 0;
+}
+.service h2{
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #303030;
+}
+.service p{
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    color: #303030;
+    font-family: 'Lato', sans-serif;
+
+
+}
+/* item code start */
+.item_wrap{
+    padding: 34px 0;
+}
+.item1{
+    width: 32%;
+    background-color: #F7F7F7;
+    border: 0.5px solid #DEDEDE;
+    border-radius: 7px;
+    margin-right: 25px;
+}
+.item1:hover{
+    border: 0.5px solid #F5893A;
+
+}
+.imgbackground{
+    background-color: #c5bebe;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 85px;
+    margin-top: 36px;
+    
+
+}
+.imgbackground:hover{
+    background-color: #F5893A;
+
+}
+.imgbackground img{
+    margin-top: 45px;
+}
+.item1 h2{
+    margin-top: 42px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-left: -23px;
+}
+
+.dollerpoint .start p{
+    color: black;
+    font-size: 13px;
+    display: inline-block;
+    margin: 23px 0px -1px 80px;;
+}
+
+.dollerpoint .mo{
+    position: relative;
+    display: inline-block;
+    margin-left: 85px;
+}
+
+.dollerpoint .mo p:nth-child(1){
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: -18px;
+    font-weight: 900;
+    font-size: 26px;
+    
+}
+.dollerpoint .mo p:nth-child(2){
+    display: inline-block;
+    font-size: 49px;
+    font-weight: 900;
+
+}
+.dollerpoint .mo p:nth-child(3){
+    display: inline-block;
+    font-weight: 900;
+
+}
+.list{
+    margin-top: 23px;
+}
+.list ul li{
+    list-style: none;
+    padding: 8px;
+    color: #7F7F7F;
+}
+.list ul li:nth-child(1){
+    margin-left: 44px;
+}
+.list ul li:nth-child(2){
+    margin-left: 36px;
+
+}
+.list ul li:nth-child(3){
+    margin-left: 53px;
+
+}
+.dollerpoint a{
+    margin: 10px 0px 34px 56px;
+    padding: 10px 32px;
+    display: inline-block;
+    border: 0.5px solid #DEDEDE;
+    color: black;
+    font-weight: 700;
+    border-radius: 7px;
+
+}
+
+    
+
+.item_wrap{
+    display: flex;
+}
+.service .item_wrap .item1:hover .imgbackground{
+    background: #F5893A;
+
+}
+.service .item_wrap .item1:hover .dollerpoint a{
+    background: #F5893A;
+    color: white;
+}
+
+
+.service .item_wrap .item1:hover .dollerpoint .start p{
+    color: #F38944;
+
+}
+.service .item_wrap .item1:hover .dollerpoint .mo p{
+    color: #F38944;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.fix{
+    overflow: hidden;
+}
+/* reset code end */
+/* main code start */
+
+.gmail ul li a img{
+    width: 32px;
+}
+#ima{
+    margin-top: -9px;
+}
+.gmail ul li{
+    float: left;
+}
+.gmail ul li a{
+    padding: 10px;
+    color: #212121;
+}
+.main-google{
+    position: relative;
+}
+.gmail{
+    padding: 20px;
+    position: absolute;
+    
+    top: 3%;
+    right: 0%;
+}
+#box{
+    width: 584px;
+    height: 41px;
+    border: 1px solid #b3a7a7;
+    border-radius: 21px; 
+}
+.search{
+    position: relative;
+}
+
+
+.mi{
+    position: absolute;
+    position: absolute;
+    top: 14px;
+    right: 114px;
+    color: grey;
+}
+.search a {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    color: #b3a7a7;
+}
+.all-wrap img{
+    margin-left: 155px;
+    margin-bottom: 33px;
+}
+.button a{
+    color: #b3a7a7;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #F8F9FA;border-radius: 5px;
+
+}
+.button{
+    padding: 26px 0px 26px 122px;
+}
+.button a:nth-child(1){
+    margin-right: 11px;
+}
+.all-wrap p{
+    margin-left: 198px;
+    font-size: 13px;
+    margin-top: -13px;
+}
+.google {
+    margin: 110px auto;
+}
+
+
+
+
+
+
